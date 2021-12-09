@@ -1,0 +1,2 @@
+_logs/bcoh_nospeed/retrain1/checkpoints/100000.pth filter=lfs diff=lfs merge=lfs -text
+_logs/ours_threshold_weight5_nospeed/retrain1/checkpoints/100000.pth filter=lfs diff=lfs merge=lfs -text
