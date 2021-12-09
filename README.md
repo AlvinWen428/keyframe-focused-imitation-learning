@@ -70,11 +70,13 @@ And then you can run our method.
     # evaluate
     python3 coiltraine.py --folder ours_threshold_weight5_nospeed -e resnet_7frame_retrain1 --single-process drive -de NocrashTrainingDenseRep3_Town01 -vd CoILVal1 --gpus 0 --docker carlasim/carla:0.8.4
 
+We have uploaded the example checkpoints of BCOH and our model in ``_logs``, you can directly evaluate them.
+
 For the evaluation benchmark, we retest all the methods for three times in NoCrashDense benchmark, 
 i.e. ``-de NocrashTrainingDenseRep3_Town01``, because of the high variance of CARLA simulator.
 After the evaluation is over, you can use ``tools/print_metrics.py`` to get the statistical metrics.
 
-For more details about how to execute the experiments, please refer to the README in the original carla github [repo](https://github.com/felipecode/coiltraine).
+For more details about the arguments and how to execute the experiments, please refer to the README in the original carla github [repo](https://github.com/felipecode/coiltraine).
 
 ## Citations
 Please consider citing our paper in your publications if it helps. Here is the bibtex:
